@@ -1,5 +1,29 @@
 /* GENERAL */
+main {
+  width: 60%;
+  margin: auto;
+}
 
+main h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+section img {
+  width: 450px;
+  height: 500px;
+  object-fit: cover;
+}
+
+section div {
+  width: 400px;
+}
 
 /* HERO SECTION */
 
