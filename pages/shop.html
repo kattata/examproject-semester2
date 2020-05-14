@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Set The Label Shop</title>
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Example description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/lex5vcp.css" />
+    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" type="image/x-icon" href="" />
+    <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top-layer">
+            <p class="newsletter-btn">Sign up for Newsletter</p>
+            <img src="../resources/icons/logo.png" class="logo" alt="Logo" />
+            <div class="sidenav">
+                <button class="search-icon"><img src="../resources/icons/search.svg" class="sidenav-icon"
+                        alt="Search Icon" /></button>
+                <img src="../resources/icons/avatar.svg" class="sidenav-icon" alt="Avatar Icon" />
+                <button class="bag-icon"><img src="../resources/icons/bag.svg" class="sidenav-icon "
+                        alt="Bag Icon" /></button>
+            </div>
+        </div>
+        <nav>
+            <a href="shop.html" class="nav-item">Shop</a>
+            <a href="community.html" class="nav-item">Community</a>
+            <a href="about.html" class="nav-item">About</a>
+        </nav>
+    </header>
+
+    <main>
+
+
+
+        <section class="container">
+            <h2 class="collection">COLLECTION 1</h2>
+
+                <div class="products_container">
+                    <div class="product">
+                        <img src="../resources/images/2.jpg" class="product_pic" alt="model">
+                        <div class="under_picture">
+                            <h4>Set 1</h4>
+                            <h4>750DKK</h4>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="../resources/images/2.2.jpg" class="product_pic" alt="model">
+                        <div class="under_picture">
+                            <h4>Set 1</h4>
+                            <h4>750DKK</h4>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="../resources/images/2.3.jpg" class="product_pic" alt="model">
+                        <div class="under_picture">
+                            <h4>Set 1</h4>
+                            <h4>750DKK</h4>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <section class="about_the_collection">
+            <div class="slide_down_button" id="slide_down_button">
+                <h3 class="collection_button" id="collection_button">About The Collection</h3>
+            </div>
+
+                <div class="description_container" id="description_container">
+                    <div class="row">
+                        <div class="column">
+                            <p>Our 2021 spring collection is the Set Set Label debut. „You Are Beautiful” is created especially for women who have a lot of responsibilities and not always have time to choose the right outfits every day. <br><br>
+
+                            The collection is characterized by tone colors that will perfectly match any type of skin, and will also look beautiful on every type of women body.</p>
+                        </div>
+
+
+
+                       <div class="column">
+                            <p>Our 2021 spring collection is the Set Set Label debut. „You Are Beautiful” is created especially for women who have a lot of responsibilities and not always have time to choose the right outfits every day.
+
+                        The collection is characterized by tone colors that will perfectly match any type of skin, and will also look beautiful on every type of women body.</p>
+                        </div>
+                    </div>
+
+                     <div class="collection_pictures">
+                    <div class="left">
+                        <img src="../resources/images/detailed_1.jpeg" alt="picture of the product" class="detailed_1">
+                    </div>
+                    <div class="right">
+                        <img src="../resources/images/detailed_2.jpeg" alt="picture of the product" class="detailed_2">
+                        <img src="../resources/images/detailed_3.jpeg" alt="picture of the product" class="detailed_3">
+                    </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <section class="container">
+            <h2 class="collection">COLLECTION 2</h2>
+
+                <div class="products_container">
+                    <div class="product">
+                        <img src="../resources/images/2.jpg" class="product_pic" alt="model">
+                        <div class="under_picture">
+                            <h4>Set 1</h4>
+                            <h4>750DKK</h4>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="../resources/images/2.2.jpg" class="product_pic" alt="model">
+                        <div class="under_picture">
+                            <h4>Set 1</h4>
+                            <h4>750DKK</h4>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="../resources/images/2.3.jpg" class="product_pic" alt="model">
+                        <div class="under_picture">
+                            <h4>Set 1</h4>
+                            <h4>750DKK</h4>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+
+    </main>
+
+<footer></footer>
+    <script type="text/javascript" src=""></script>
+</body>
+
+
+
+  <script>
+                // Part when we do slidedown for description about the collection
+
+                    $(document).ready(function() {
+
+                        $("#collection_button").click(function(){
+                        $("#description_container").slideToggle("slow");
+                         });
+                    });
+
+                // End of the document ready function...
+    </script>
+
+
+
+</html>
+
+
+
