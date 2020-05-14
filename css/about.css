@@ -1,3 +1,7 @@
+body {
+    font-family: interstate, sans-serif;
+}
+
 .section_1 {
     margin-left: 300px;
     margin-right: 300px;
@@ -39,7 +43,6 @@
 }
 
 .paragraph {
-    font-family: sans-serif;
     color: #323439;
     line-height: 1.5;
     font-size: 17px;
@@ -47,7 +50,6 @@
 }
 
 .paragraph_quality {
-    font-family: sans-serif;
     color: #323439;
     line-height: 1.5;
     font-size: 17px;
