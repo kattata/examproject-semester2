@@ -1,0 +1,12 @@
+/* navigation and footer */
+
+@font-face {
+  font-family: "lemonmilk";
+  src: url(../resources/fonts/LEMONMILK-Regular.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
