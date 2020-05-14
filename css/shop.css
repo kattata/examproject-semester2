@@ -33,10 +33,20 @@ body {
     justify-content: center;
 }
 
+.image_box {
+    overflow: hidden;
+}
+
 .product_pic {
     width: 100%;
     height: auto;
+    transition: .3s ease;
 }
+
+.product_pic:hover {
+    transform: scale(1.4);
+}
+
 
 .under_picture {
     display: flex;
@@ -85,7 +95,6 @@ body {
 .detailed_1 {
     width: auto;
     height: 90%;
-
 }
 
 .detailed_2 {
