@@ -77,11 +77,11 @@ header {
 .search-icon::after {
   content: "";
   width: 100px;
-  height: 1px;
+  height: 2px;
   background-color: #CDC9C8;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: -2px;
+  left: -75px;
 }
 
 .bag-icon {
@@ -89,13 +89,15 @@ header {
 }
 
 .bag-icon::before {
-  content: "";
-  width: 2px;
-  height: 2px;
+  content: "0";
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
   position: absolute;
-  top: 0;
-  right: 0;
-  background-color: #CDC9C8;
+  top: -15px;
+  right: -15px;
+  
+  background: #CDC9C8;
 }
 
 /* MAIN NAVIGATION */
@@ -122,14 +124,32 @@ nav {
   flex-direction: row;
   justify-content: center;
   justify-content: space-between;
-  padding: 50px;
+  padding: 30px;
+  margin-top: 20px;
 }
 
 hr {
   margin: 10px;
-  height: 5px;
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 2px;
   color: white;
   border-color: white;
   background: white;
 }
 
+.Some {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+  margin-left: 40%;
+  margin-right: 40%;
+  justify-content: space-between;
+}
+
+.Someicon {
+  height: 30px;
+  width: 30px;
+
+}
