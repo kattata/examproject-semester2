@@ -14,7 +14,7 @@
 body {
   font-family: interstate, sans-serif;
   color: #323439;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 a {
@@ -40,7 +40,7 @@ header {
 .top-layer {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .newsletter-btn {
@@ -133,45 +133,51 @@ nav {
 
 /* FOOTER */
 
-.footer {
+footer {
   background-color: #323439;
   color: white;
 }
 
-.flexfooter {
+footer h2 {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+footer p {
+  line-height: 1.5;
+}
+
+.logo-footer {
+  height: 60px;
+}
+
+.flex-footer {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   justify-content: space-between;
-  margin-top: 20px;
   padding: 30px;
   padding-top: 50px;
-  margin-right: 5%;
-  margin-left: 5%;
-  font-weight: lighter;
+  width: 80%;
+  margin: auto;
+
 }
 
 hr {
-  margin: 10px;
-  margin-right: 10%;
-  margin-left: 10%;
-  height: 2px;
-  color: white;
-  border-color: white;
+  margin: 10px auto;
+  width: 80%;
+  height: 1px;
   background: white;
 }
 
-.Some {
+.some {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 30px;
-  margin-left: 40%;
-  margin-right: 40%;
   justify-content: space-around;
 }
 
-.Someicon {
+.some-icon {
   height: 35px;
   width: 35px;
+  margin: 20px 10px;
 }
