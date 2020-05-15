@@ -135,7 +135,7 @@ nav {
 /* FOOTER */
 
 footer {
-  background-color: #323439;
+  background-color: #CDC9C8;
   color: white;
 }
 
@@ -181,3 +181,67 @@ hr {
   width: 35px;
   margin: 20px 10px;
 }
+
+/* NEWSLETTER */
+
+.newsletter_container {
+    text-align: left;
+    background-color: #323439;
+    height: 250px;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    }
+
+.tiny_paragraph {
+    max-width: 400px;
+    margin: auto;
+    font-size: 23px;
+    font-family: "lemonmilk";
+    }
+
+
+/* BANNER */
+
+
+.header_container {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align:left;
+    width: 40%;
+}
+
+.header_text {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align:left;
+    width: 30%;
+}
+
+.site_title {
+    font: 70px "lemonmilk";
+    color: white;
+}
+
+.under_title {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
