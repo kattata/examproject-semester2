@@ -93,13 +93,20 @@ section img {
   .learn-btn {
     margin-top: 20px;
     font-weight: 500;
+    position: relative;
   }
-<<<<<<< HEAD
-  
-=======
+
+  .learn-btn::after {
+    content: "";
+    width: 85px;
+    height: 2px;
+    position: absolute;
+    background-color: #CDC9C8;
+    bottom: 0;
+    left: 0;
+  }
 
 
->>>>>>> 67365a18d0d4bf82e0da5334f071ed919057a99d
 /* SHOP CAROUSEL */
 .shop-carousel img {
   height: 300px;
