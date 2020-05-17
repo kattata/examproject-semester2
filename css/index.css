@@ -137,3 +137,24 @@ grid-row: 4/8;
   grid-column: 1/2;
   grid-row: 5/8;
 }
+
+
+/* NEWSLETTER */
+
+.newsletter_container {
+    text-align: left;
+    background-color: #323439;
+    height: 250px;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    }
+
+.tiny_paragraph {
+    max-width: 400px;
+    margin: auto;
+    font-size: 23px;
+    font-family: "lemonmilk";
+    }
