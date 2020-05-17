@@ -135,7 +135,7 @@ nav {
 /* FOOTER */
 
 footer {
-  background-color: #CDC9C8;
+  background-color: #323439;
   color: white;
     height: auto;
 }
@@ -170,6 +170,7 @@ hr {
   background: white;
 }
 
+<<<<<<< HEAD
 .some_icons {
     width: 5%;
     display: flex;
@@ -183,8 +184,19 @@ hr {
     padding-bottom: 25px;
 }
 
+=======
+.some {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
-
+.some-icon {
+  height: 35px;
+  width: 35px;
+  margin: 20px 10px;
+}
+>>>>>>> origin/master
 
 
 
