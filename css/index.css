@@ -108,8 +108,45 @@ section img {
 
 
 /* SHOP CAROUSEL */
+
+.shop-carousel h2 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.go-shop {
+  text-align: center;
+  display: block;
+  margin: 20px auto 100px;
+  font-weight: 500;
+  position: relative;
+  width: 110px;
+}
+
+.go-shop::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #CDC9C8;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+
 .center {
   margin: auto;
+}
+
+.slick-slide {
+ opacity: 0.5;
+}
+
+.slick-center {
+  opacity: 1;
+}
+
+.slick-center {
+
 }
 
 .center img {
