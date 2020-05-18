@@ -32,47 +32,77 @@
     <main>
         <div class="product-flex">
             <section class="product-photos">
-                <img src="../resources/images/2.3.2.jpg" class="product-img-small1" alt="">
-                <img src="../resources/images/2.3.3.jpg" class="product-img-small2" alt="">
-                <img src="../resources/images/2.3.4.jpg" class="product-img-small3" alt="">
+                <img src="../resources/images/2.3.jpg" class="first-img product-img-small" alt="">
+                <img src="../resources/images/2.3.2.jpg" class="second-img product-img-small" alt="">
+                <img src="../resources/images/2.3.3.jpg" class="third-img product-img-small" alt="">
                 <img src="../resources/images/2.3.jpg" class="product-img-big" alt="">
             </section>
 
             <section class="product-details">
-                <p>Collection 1</p>
-                <h2>Set Name 1</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum recusandae accusantium nihil alias
-                    quod
-                    perferendis ratione cum, pariatur rerum quam quisquam iste unde dolor neque. Expedita, possimus
-                    excepturi. Itaque veniam voluptatum vel aliquam magnam ex pariatur. Voluptatibus, aperiam? Accusamus
-                    officiis temporibus beatae ducimus dignissimos animi sequi reiciendis magnam, fugiat ipsam?</p>
-                <h3>Price: 750DKK</h3>
-                <h3>Size Guide</h3>
-                <button>Add to Bag</button>
-                <button>Fav</button>
+                <p class="collection-name">Collection 1</p>
+                <h2 class="set-name">Set Name 1</h2>
+                <p>Our first set presents a typical top-down outfit. A comfortable t-shirt that is always at hand, and
+                    comfortable pants, which do not restrict our movement. The set looks great together, but it will
+                    also look good in combination with other collections or clothes from your wardrobe.</p>
+                <div class="price-and-size">
+                    <h3 class="pricetag">Price: 750DKK</h3>
+                    <h3>Size Guide</h3>
+                </div>
+                <div class="size-and-amount">
+                    <select id="size" name="size">
+                        <option value="size" name>Size</option>
+                        <option value="xs">XS</option>
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                    <select id="amount" name="amount">
+                        <option value="amount" name>Amount</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="add-and-fav">
+                    <button class="add-btn">Add to Bag</button>
+                    <button class="fav-btn"><img src="../resources/icons/love-and-romance.svg" alt="Heart Icon"
+                            class="fav-icon"></button>
+                </div>
                 <div class="ship-return-details">
                     <p>Free shipping in Denmark</p>
                     <p>30 days to return</p>
                 </div>
                 <h2>Top</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, nulla? Nobis aperiam ducimus
-                    eligendi voluptates, iste quaerat quasi doloremque maxime officia corrupti ad, soluta itaque
-                    suscipit
-                    voluptatibus, illo iure cum quod? Porro ut perspiciatis unde nostrum veniam error fuga ab!</p>
+                <p>The t-shirt is made of very good quality cotton. It is very comfortable and will not shrink or
+                    stretch after washing. Toned color makes it match almost anything. The seams are very durable, so
+                    you don’t have to worry about protruding threads or ripping.</p>
+                <h4>Material</h4>
+                <p>100% cotton</p>
+                <h4>Care instructions</h4>
+                <p class="care">Machine wash at 30°C, delicate wash</p>
+                <p><span>Cutout:</span> Round neckline</p>
+                <p><span>Pattern:</span> Uni colors</p>
                 <h2>Bottom</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem culpa officia explicabo quos laborum
-                    nihil
-                    blanditiis sunt mollitia vero porro dolores maiores voluptates, animi perspiciatis numquam
-                    doloribus!
-                    Dolor, doloremque. Sapiente repudiandae ratione veniam ipsam? Accusantium repellendus sit dolore
-                    dicta,
-                    facere praesentium unde? Veritatis tenetur maxime velit enim esse accusamus dolore!</p>
+                <p>The t-shirt is made of very good quality cotton. It is very comfortable and will not shrink or
+                    stretch after washing. Toned color makes it match almost anything. The seams are very durable, so
+                    you don’t have to worry about protruding threads or ripping.</p>
+                <h4> Material</h4>
+                <p>68% polyester, 29% viscose, 3% elastane</p>
+                <h4>Care instructions</h4>
+                <p class="care">Machine wash at 30°C, max. 5%, delicate wash</p>
+                <p><span>Height:</span> High</p>
+                <p><span>Pockets:</span> Side pockets</p>
+                <p><span>Pattern:</span> Uni colors</p>
+                <p><span>Details:</span> Elastic waistband</p>
             </section>
         </div>
 
         <section class="ugc">
             <h2>#SetTheLabel</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quae.</p>
+            <p class="hashtag-explanation">Use the hashtag and show us your look.</p>
             <div class="ugc-grid">
                 <img src="../resources/images/ugc2.jpg" alt="">
                 <img src="../resources/images/ugc3.jpg" alt="">
@@ -80,19 +110,35 @@
                 <img src="../resources/images/ugc5.jpg" alt="">
                 <img src="../resources/images/ugc6.jpg" alt="">
                 <img src="../resources/images/ugc7.jpg" alt="">
+                <a href="http://instagram.com/setthelabel?igshid=az5zh1amlciv">
+                    <div class="follow-ig">
+                        <p>Follow us <br>on Instagram</p>
+                        <div>
+                            <img src="../resources/icons/white-ig.svg" alt="Instagram Logo">
+                            <p>setthelabel</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </section>
 
         <section class="suggestions">
-            <div class="suggestion">
-                <img src="../resources/images/2.jpg" alt="">
-                <p>Set Name</p>
-                <p>750DKK</p>
-            </div>
-            <div class="suggestion">
-                <img src="../resources/images/2.2.jpg" alt="">
-                <p>Set Name</p>
-                <p>750DKK</p>
+            <h2>You may also like</h2>
+            <div class="suggestion-container">
+                <div class="suggestion">
+                    <img src="../resources/images/2.jpg" alt="Set 1 Picture">
+                    <div class="name-and-price">
+                        <p>Set Name</p>
+                        <p>750DKK</p>
+                    </div>
+                </div>
+                <div class="suggestion">
+                    <img src="../resources/images/2.2.jpg" alt="Set 3 Picture">
+                    <div class="name-and-price">
+                        <p>Set Name</p>
+                        <p>750DKK</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -131,6 +177,12 @@
             <img src="../resources/icons/mail.png" class="some-icon" alt="Mail">
         </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+        integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+        integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8=" crossorigin="anonymous"></script>
+    <script src="../js/product.js"></script>
 
 </body>
 

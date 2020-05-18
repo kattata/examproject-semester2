@@ -1,0 +1,208 @@
+.community {
+  position: relative;
+  color: white;
+  align-content: center;
+  justify-content: center;
+}
+
+.community img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  transform: scaleX(-1);
+}
+
+.community h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  width: 60%;
+  line-height: 1;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-85%);
+  align-content: center;
+  justify-content: center;
+  padding-left: 18%;
+}
+
+.community h2 {
+  position: absolute;
+  width: 40%;
+  font-weight: 400;
+  font-size: 13px;
+  top: 80%;
+   align-content: center;
+  justify-content: center;
+  text-align: left;
+  transform: translateY(-80%);
+    padding-left: 18%;
+}
+
+/* MAIN */
+
+h3 {
+    font-size: 13px;
+    align-content: center;
+    justify-content: center;
+    padding-left: 18%;
+}
+
+.headline {
+    margin: 4% 0 4% 0;
+    align-content: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+
+
+h2{
+    font-size: 18px;
+}
+
+.h3 {
+    font-size: 13px;
+    margin-top: 4%;
+}
+
+
+.img {
+    height: 250px;
+    width: 380px;
+    object-fit: cover;
+    object-position: top;
+    margin: 0 4%;
+}
+
+.btn {
+  font-weight: 500;
+  position: relative;
+}
+
+.btn::after {
+  content: "";
+  width: 105px;
+  height: 2px;
+  position: absolute;
+  background-color: #CDC9C8;
+  bottom: 0;
+  left: 0;
+}
+
+.btn2 {
+  font-weight: 500;
+  position: relative;
+margin-left: 18%;
+}
+
+.btn2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  background-color: #CDC9C8;
+  bottom: 0;
+  left: 0;
+}
+
+/* NEW ARTICLES */
+
+.flex-container {
+  display: flex;
+ align-content: center;
+  justify-content: center;
+}
+
+.flex-container > div {
+  font-size: 30px;
+  padding-right: 5%;
+}
+
+.section-text {
+  width: 400px;
+
+}
+
+.button {
+ align-content: center;
+  justify-content: center;
+  font-size: 13px;
+  margin-top: 4%;
+}
+
+/* STORIES & INSPIRATION */
+
+.flex-container2 {
+  display: flex;
+ align-content: center;
+  justify-content: center;
+}
+
+
+.img2 {
+  width: 380px;
+  height: 250px;
+  object-fit: cover;
+  object-position: top;
+  margin: 0 4%;
+}
+
+.img3 {
+  padding-left: 30px;
+}
+
+.info {
+  color: grey;
+  font-size: 13px;
+}
+
+figcaption {
+  display: block;
+  text-align: left;
+  margin: 4%;
+  width: 380px;
+}
+
+/* FOLLOW US ON INSTAGRAM */
+
+.flex-container3 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.flex-container3 > div {
+  font-size: 30px;
+  padding: 2% 2% 2% 0;
+}
+
+.Insta {
+  height: 190px;
+  width: 190px;
+  padding: 2% 0 2% 0;
+}
+
+.flex-container4 {
+  width: 400px;
+  height: 380px;
+  margin-left: 40px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  font-size: 14px;
+  padding: 13%;
+  margin-top: 2%;
+  margin-bottom: 20%;
+}
+
+.insta-icon {
+  width: 20px;
+  margin-right: 4px;
+}
+
+.insta-flex {
+  display: flex;
+   align-content: center;
+  justify-content: center;
+}

@@ -1,5 +1,24 @@
+p {
+    line-height: 1.5;
+}
+
+main h2 {
+    text-transform: uppercase;
+    font-family: "lemonmilk";
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+}
+
+main h3 {
+    font-size: 16px;
+}
+
+main h4 {
+    margin: 10px 0 3px;
+}
+
 .product-flex {
-    width: 50%;
+    width: 60%;
     margin: auto;
     display: flex;
 }
@@ -7,10 +26,10 @@
 /* PRODUCT PHOTOS */
 
 .product-photos {
-    margin: 20px;
+    margin: 20px 30px 20px 0;
     display: grid;
-    grid-template-columns: 100px 300px;
-    grid-template-rows: repeat(3, 140px);
+    grid-template-columns: 9vw 25vw;
+    grid-template-rows: repeat(3, 28vh);
     grid-gap: 20px;
 }
 
@@ -25,16 +44,91 @@
     grid-row: 1/4;
 }
 
+.product-img-small {
+    cursor: pointer;
+}
 /* PRODUCT DETAILS */
+
+.collection-name {
+    margin-top: 110px;
+}
+
+.set-name {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.price-and-size {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.size-and-amount {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#size, #amount{
+    width: 48%;
+    height: 30px;
+    border-color: #CDC9C8;
+    font-family: interstate, sans-serif;
+    font-size: 16px;
+}
+
+.add-and-fav {
+    margin: 10px 0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500px;
+}
+
+.add-btn {
+    background-color: #CDC9C8;
+    height: 100%;
+    width: 82%;
+    font-size: 16px;
+    font-family: interstate, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.fav-icon {
+    height: 20px;
+    margin-top: 3px;
+}
+
+.fav-btn {
+    background-color: #CDC9C8;
+    height: 100%;
+    width: 14%;
+}
+
+.product-details span {
+    font-weight: 600;
+}
+
+.care {
+    margin-bottom: 10px;
+}
 
 /* UGC */
 
+.ugc {
+    width: 60%;
+    margin: 50px auto 0;
+}
+
 .ugc-grid {
     display: grid;
-    grid-template-columns: 200px repeat(3, 1fr);
-    grid-template-rows: repeat(2, 170px);
+    grid-template-columns: 250px repeat(3, 1fr);
+    grid-template-rows: repeat(2, 190px);
     grid-gap: 20px;
-    width: 50%;
+    width: 100%;
     margin: 20px auto;
 }
 
@@ -49,20 +143,64 @@
     grid-row: 1/3;
 }
 
+.hashtag-explanation {
+    line-height: 1;
+}
+
+.follow-ig {
+    background-color: #323439;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 45px;
+}
+
+.follow-ig img {
+    height: 20px;
+    width: 20px;
+}
+
+.follow-ig div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.follow-ig div::before {
+    position: absolute;
+    content: "";
+    background-color: #CDC9C8;
+    width: 120%;
+    height: 1px;
+    top: -15px;
+    left: -10%;
+}
+
 /* YOU MAY ALSO LIKE */
 
 .suggestions {
-    display: flex;
-    margin: auto;
-    width: 50%;
-
+    margin: 50px auto;
+    width: 60%;
 }
 
-.suggestions:last-child {
+.suggestion-container {
+    display: flex;
+    width: 100%;
+}
+
+.suggestion:last-child {
     margin-left: 20px;
 }
 
 .suggestion img {
     height: 400px;
+}
 
+.name-and-price {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
 }
