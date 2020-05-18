@@ -37,12 +37,6 @@ body {
     height:
 }
 
-.paragraph_title {
-    font: 20px "lemonmilk";
-    color: #323439;
-    margin-bottom: 20px;
-}
-
 .paragraph {
     color: #323439;
     line-height: 1.5;
@@ -104,13 +98,35 @@ a {
     margin-top: 10px;
 }
 
+.learn-btn {
+    margin-top: 20px;
+    font-weight: 500;
+    position: relative;
+  }
 
+.learn-btn::after {
+    content: "";
+    width: 85px;
+    height: 2px;
+    position: absolute;
+    background-color: #CDC9C8;
+    bottom: 0;
+    left: 0;
+  }
 
+.section-h2 {
+  margin: 10px 0 10px 10px;
+}
 
-
-
-
-
+.section-h2::before {
+  content: "";
+  height: 90%;
+  width: 5px;
+  background-color: #CDC9C8;
+  position: absolute;
+  left: -20px;
+  top: 0;
+}
 
 
 
