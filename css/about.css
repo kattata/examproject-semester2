@@ -1,10 +1,6 @@
-*,
-*:after,
-*:before {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+@font-face {
+  font-family: "lemonmilk";
+  src: url(../resources/fonts/LEMONMILK-Regular.otf);
 }
 
 body {
@@ -13,6 +9,12 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .section_1 {
@@ -215,7 +217,7 @@ body {
 .values_title {
     text-align: center;
     font: 20px "lemonmilk";
-    margin-top: -40px;
+    margin-top: 40px;
 }
 
 .values_container {
@@ -277,6 +279,7 @@ body {
 
 .section-h2 {
   margin: 10px 0 10px 10px;
+    font: 18px "lemonmilk";
 }
 
 .section-h2::before {
@@ -285,7 +288,7 @@ body {
   width: 5px;
   background-color: #CDC9C8;
   position: absolute;
-  left: 0px;
+  left: -10px;
   top: 0;
 }
 
@@ -296,6 +299,10 @@ body {
 
 .stronger_together_pic_mobile {
     display: none;
+}
+
+.title_and_text_equality {
+    margin-top: 80px;
 }
 
 .some {
