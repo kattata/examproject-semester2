@@ -170,7 +170,6 @@ hr {
   background: white;
 }
 
-<<<<<<< HEAD
 .some_icons {
     width: 5%;
     display: flex;
@@ -184,7 +183,6 @@ hr {
     padding-bottom: 25px;
 }
 
-=======
 .some {
   display: flex;
   flex-direction: row;
@@ -196,7 +194,6 @@ hr {
   width: 35px;
   margin: 20px 10px;
 }
->>>>>>> origin/master
 
 
 
