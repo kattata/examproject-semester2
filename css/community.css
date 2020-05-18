@@ -9,6 +9,219 @@
   box-sizing: border-box;
 }
 
+
+body {
+  font-family: interstate, sans-serif;
+  color: #323439;
+  font-size: 16px;
+}
+
+.community {
+    height: 400PX;
+    width:  100%;
+    background-image: url(../resources/images/two_women_sitting_on_white_ben.png);
+    position: relative;
+    background-position: top;
+    color: white;
+}
+
+.community h1 {
+  text-transform: uppercase;
+  font: 30px "lemonmilk";
+  line-height: 1.5;
+  width: 80%;
+  position: absolute;
+  top: 60%;
+  left: 50px;
+  transform: translateY(-85%);
+  align-content: center;
+}
+
+.community h2 {
+  position: absolute;
+  width: 80%;
+  font-weight: 400;
+  font-size: 17px;
+  top: 80%;
+   align-content: center;
+  justify-content: center;
+  text-align: left;
+  transform: translateY(-80%);
+  left: 50px;
+}
+
+/* MAIN */
+
+.article_container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.headline {
+    font: 20px "lemonmilk";
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.article_title {
+    font: 17px "lemonmilk";
+}
+
+
+.article_img {
+    height: 250px;
+    width: 350px;
+    margin: auto;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 15px;
+}
+
+.continue-reading-btn {
+    margin-top: 20px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+.continue-reading-btn::after {
+    content: "";
+    width: 130px;
+    height: 2px;
+    position: absolute;
+    background-color: #CDC9C8;
+    bottom: 0;
+    left: 0;
+  }
+
+.read-all-btn {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    text-align: right;
+}
+
+.read-all-btn::after {
+    content: "";
+    justify-content: center;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: #CDC9C8;
+    bottom: 0;
+    right: 0;
+  }
+
+/* NEW ARTICLES */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.section-text {
+  width: 100%;
+}
+
+.paragraph {
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 17px;
+}
+
+/* STORIES & INSPIRATION */
+
+
+.inspiration_container {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.flex-container2 {
+  display: flex;
+flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.img2 {
+width: 350px;
+height: 250px;
+object-fit: cover;
+object-position: top;
+margin-bottom: 15px;
+}
+
+
+.info {
+  color: grey;
+  font-size: 15px;
+margin-top: 10px;
+}
+
+figcaption {
+  display: block;
+  text-align: left;
+}
+
+
+/* FOLLOW US ON INSTAGRAM */
+
+.instagram {
+    width: 80%;
+    margin: auto;
+}
+
+.insta-flex {
+    display: block;
+    width: 100%;
+}
+
+.flex-container3 {
+  display: flex;
+  justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.flex-container3 div {
+    width: 100%;
+    margin: auto;
+}
+
+.Insta {
+  width: 100%;
+}
+
+.flex-container4 {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  font-size: 15px;
+  line-height: 1.3;
+  padding: 10%;
+    margin-bottom: 40px;
+}
+
+.insta-icon {
+  width: 20px;
+  margin-right: 4px;
+}
+
+
+/* DESKTOP VERSION*/
+/* DESKTOP VERSION*/
+/* DESKTOP VERSION*/
+
+@media (min-width: 990px) {
+
 body {
   font-family: interstate, sans-serif;
   color: #323439;
@@ -49,7 +262,7 @@ body {
 
 .community h2 {
   position: absolute;
-  width: 50%;
+  width: 30%;
   font-weight: 400;
   font-size: 17px;
   top: 80%;
@@ -57,7 +270,7 @@ body {
   justify-content: center;
   text-align: left;
   transform: translateY(-80%);
-    padding-left: 18%;
+    left: 300px;
 }
 
 /* MAIN */
@@ -72,15 +285,11 @@ body {
 .headline {
     font: 18px "lemonmilk";
     margin-bottom: 30px;
+    text-align: left;
 }
 
 .article_title {
     font: 12px;
-}
-
-.h3 {
-    font-size: 13px;
-    margin-top: 4%;
 }
 
 
@@ -145,13 +354,6 @@ body {
     margin-top: 17px;
 }
 
-.button {
- align-content: center;
-  justify-content: center;
-  font-size: 13px;
-  margin-top: 4%;
-}
-
 /* STORIES & INSPIRATION */
 
 
@@ -164,6 +366,7 @@ body {
 
 .flex-container2 {
   display: flex;
+    flex-direction: row;
   justify-content: space-between;
   width: 100%;
 }
@@ -204,7 +407,7 @@ figcaption {
 }
 
 .insta-flex {
-  display: flex;
+display: flex;
 justify-content: space-between;
 }
 
@@ -236,5 +439,5 @@ justify-content: space-between;
   width: 20px;
   margin-right: 4px;
 }
-
+}
 
