@@ -328,6 +328,7 @@ footer p {
 
 .logo-footer {
   height: 60px;
+display: block;
 }
 
 .flex-footer {
