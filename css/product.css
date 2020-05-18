@@ -28,8 +28,8 @@ main h4 {
 .product-photos {
     margin: 20px 30px 20px 0;
     display: grid;
-    grid-template-columns: 130px 400px;
-    grid-template-rows: repeat(3, 190px);
+    grid-template-columns: 9vw 25vw;
+    grid-template-rows: repeat(3, 28vh);
     grid-gap: 20px;
 }
 
@@ -145,6 +145,38 @@ main h4 {
 
 .hashtag-explanation {
     line-height: 1;
+}
+
+.follow-ig {
+    background-color: #323439;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 45px;
+}
+
+.follow-ig img {
+    height: 20px;
+    width: 20px;
+}
+
+.follow-ig div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.follow-ig div::before {
+    position: absolute;
+    content: "";
+    background-color: #CDC9C8;
+    width: 120%;
+    height: 1px;
+    top: -15px;
+    left: -10%;
 }
 
 /* YOU MAY ALSO LIKE */

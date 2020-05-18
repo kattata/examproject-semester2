@@ -8,7 +8,7 @@ const controller = new ScrollMagic.Controller();
 const scene = new ScrollMagic.Scene({
     triggerElement: photos,
     triggerHook: 0.05,
-    duration: 870,
+    duration: "121%",
 })
     .setPin(photos)
     .addTo(controller);
