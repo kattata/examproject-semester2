@@ -35,6 +35,10 @@ body {
 }
 
 .designer_site {
+    display: none;
+}
+
+.designer_mobile {
     width: 100%;
 }
 
@@ -171,6 +175,7 @@ body {
 
 .designer_site {
     width: 100%;
+    display: block;
 }
 
 .designer_mobile {
@@ -286,6 +291,7 @@ body {
 
 .stronger_together_pic_site {
     width: 100%;
+    display: block;
 }
 
 .stronger_together_pic_mobile {
