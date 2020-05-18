@@ -51,11 +51,24 @@ main h4 {
 
 .collection-name {
     margin-top: 110px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.collection-name::before {
+    content: "";
+    position: absolute;
+    background-color: #CDC9C8;
+    width: 5px;
+    height: 45px;
+    left: -10px;
+    top: 2px;
 }
 
 .set-name {
     margin-top: 0;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .price-and-size {
