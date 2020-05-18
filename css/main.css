@@ -53,7 +53,7 @@ header {
 .newsletter-btn::after {
   content: "";
   width: 100%;
-  height: 2px;
+  height: 1px;
  position: absolute;
  bottom: 2px;
  left: 0;
@@ -80,7 +80,7 @@ header {
 .search-icon::after {
   content: "";
   width: 100px;
-  height: 2px;
+  height: 1px;
   background-color: #CDC9C8;
   position: absolute;
   bottom: -2px;
