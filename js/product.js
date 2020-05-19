@@ -1,17 +1,25 @@
+
+
+
 // PINDOWN
 
-const photos = document.querySelector(".product-photos");
-const logo = document.querySelector(".logo");
+let width = window.outerWidth;
 
-const controller = new ScrollMagic.Controller();
+if (width >= 900) {
 
-const scene = new ScrollMagic.Scene({
-    triggerElement: photos,
-    triggerHook: 0.05,
-    duration: "121%",
-})
-    .setPin(photos)
-    .addTo(controller);
+    const photos = document.querySelector(".product-photos");
+    const logo = document.querySelector(".logo");
+
+    const controller = new ScrollMagic.Controller();
+
+    const scene = new ScrollMagic.Scene({
+        triggerElement: photos,
+        triggerHook: 0.05,
+        duration: "121%",
+    })
+        .setPin(photos)
+        .addTo(controller);
+}
 
 // CHANGE PICTURES ON CLICK
 
