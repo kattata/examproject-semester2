@@ -21,7 +21,33 @@
 <body>
   <header>
     <div class="top-layer">
-      <p class="newsletter-btn">Sign up for Newsletter</p>
+
+<!--NEWSLETTER POP UP ON CLOCK -->
+        <div id="popup1" class="overlay">
+            <div class="popup"> <a class="close" href="#">&times;</a>
+                <div id="dialog" class="window">
+
+                    <div class="box">
+                        <img src="../resources/images/logo-white.png" class="logo_newsletter alr="set the label logo>
+
+                        <div class="newsletter-title">
+                                <h2>SIGN UP FOR OUR NEWSLETTER AND JOIN THE COMMUNITY</h2>
+                        </div>
+
+                        <form action="/action_page.php">
+                          <div class="placeholders_container">
+                              <input type="text" placeholder="Name" name="name" required>
+                              <input type="text" placeholder="E-mail address" name="mail" required>
+                              <input type="submit" value="SUBSCRIBE NOW" class="subscribe">
+                          </div>
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="newsletter-btn" href="#popup1">Sign Up For Newsletter</a>
+<!--NEWSLETTER POP UP ON CLOCK -->
+
       <a href="index.html"><img src="../resources/icons/logo.png" class="logo" alt="Logo" /></a>
       <div class="sidenav">
         <button class="search-icon"><img src="../resources/icons/search.svg" class="sidenav-icon" alt="Search Icon" /></button>
@@ -142,29 +168,11 @@
 
     <section class="instagram">
         <h3 class="headline">FOLLOW US ON INSTAGRAM</h3>
+
             <div class="insta-flex">
-                  <div class="flex-container3">
-                    <div>
-                        <div>
-                        <img  src="../resources/images/Zrzut_ekranu_2020_05_8_o_21_36_b.png" class="Insta" alt="Instagram Post">
-                        </div>
-
-                        <div>
-                        <img src="../resources/images/Zrzut_ekranu_2020_05_8_o_21_36_ce.png" class="Insta" alt="Instagram Post">
-                        </div>
+                    <div class="insta_feed">
+                        <div class="elfsight-app-50d03623-db2f-41dd-b3f8-488d54e96bee"></div>
                     </div>
-
-                  <div>
-                        <div>
-                        <img  src="../resources/images/Zrzut_ekranu_2020_05_8_o_21_36.png" class="Insta" alt="Instagram Post">
-                        </div>
-
-                        <div>
-                        <img src="../resources/images/Zrzut_ekranu_2020_05_8_o_21_35.png" class="Insta" alt="Instagram Post">
-                        </div>
-                  </div>
-                 </div>
-
                   <div>
                     <div class="flex-container4">
                         <p><strong>LET'S TALK!</strong></p><br>
@@ -181,12 +189,7 @@
 </main>
 
 
-
-
 <!--FOOTER-->
-
-
-
     <footer>
         <div class="flex-footer">
             <img src="../resources/images/logo-white.png" class="logo-footer" alt="LogoFooter" />
@@ -225,6 +228,7 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <script src="js/index.js"></script>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
 </body>
 </html>
