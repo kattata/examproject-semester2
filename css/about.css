@@ -151,10 +151,10 @@ margin-bottom: 20px;
 .section-h2::before {
     content: "";
     position: absolute;
-    height: 90%;
+    height: 85%;
     width: 5px;
     background-color: #CDC9C8;
-    top: 8px;
+    bottom: 2px;
     left: -13px;
 }
 
@@ -303,16 +303,6 @@ margin-bottom: 20px;
 .section-h2 {
   margin: 10px 0 10px 10px;
     font: 18px "lemonmilk";
-}
-
-.section-h2::before {
-  content: "";
-  height: 90%;
-  width: 5px;
-  background-color: #CDC9C8;
-  position: absolute;
-  left: -10px;
-  top: 0;
 }
 
 .stronger_together_pic_site {

@@ -417,6 +417,7 @@ hr {
     margin-bottom: 8px;
     position: relative;
     z-index: 3;
+    cursor: pointer;
   }
 
   .burger::before {
@@ -451,6 +452,10 @@ hr {
 
   .nav {
     display: none;
+  }
+
+  .nav-item:hover {
+    color: white;
   }
 
   .nav-mobile {

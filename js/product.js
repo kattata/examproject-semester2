@@ -5,6 +5,7 @@
 
 let width = window.outerWidth;
 
+
 if (width >= 900) {
 
     const photos = document.querySelector(".product-photos");
@@ -12,13 +13,18 @@ if (width >= 900) {
 
     const controller = new ScrollMagic.Controller();
 
-    const scene = new ScrollMagic.Scene({
+    // var tl = new TimelineMax();
+    // tl.to(".product-photos", 0, { y: -400 });
+
+    new ScrollMagic.Scene({
+        duration: "121%",
         triggerElement: photos,
         triggerHook: 0.05,
-        duration: "121%",
+
     })
         .setPin(photos)
         .addTo(controller);
+    // .setTween(tl);
 }
 
 // CHANGE PICTURES ON CLICK

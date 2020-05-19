@@ -90,21 +90,21 @@ section img {
 }
 
 
-  .learn-btn {
-    margin-top: 20px;
-    font-weight: 500;
-    position: relative;
-  }
+.learn-btn {
+  margin-top: 20px;
+  font-weight: 500;
+  position: relative;
+}
 
-  .learn-btn::after {
-    content: "";
-    width: 85px;
-    height: 2px;
-    position: absolute;
-    background-color: #CDC9C8;
-    bottom: 0;
-    left: 0;
-  }
+.learn-btn::after {
+  content: "";
+  width: 85px;
+  height: 2px;
+  position: absolute;
+  background-color: #CDC9C8;
+  bottom: 0;
+  left: 0;
+}
 
 
 /* SHOP CAROUSEL */
@@ -139,17 +139,20 @@ section img {
 
 .slick-slide {
  opacity: 0.5;
+ transform: scale(0.7);
 }
 
 .slick-center {
   opacity: 1;
   z-index: 10;
-  /* padding: 0 20px; */
+  transform: scale(1);
 }
 
 .center img {
   height: 80vh;
   width: 20vw;
+  padding: 0 10px;
+  margin: auto;
 }
 
 /* COMMUNITY */
