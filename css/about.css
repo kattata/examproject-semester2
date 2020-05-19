@@ -167,6 +167,58 @@ margin-bottom: 20px;
     display: none;
 }
 
+.voice_container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.voice_section_container {
+    width: 100%;
+}
+
+.voice_section_container p {
+font: 16px "interstate";
+line-height: 1.5;
+margin-bottom: 20px;
+}
+
+.voiceimg_container {
+width: 100%;
+}
+
+.openpdf a {
+    display: none;
+}
+
+.about_img_mobile {
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    display: block;
+}
+
+.voice_img {
+    display: none;
+}
+
+.body_positive {
+    display: none;
+}
+
+.drawing {
+    display: none;
+}
+
+
+
 
 @media (min-width: 990px) {
 
@@ -200,7 +252,7 @@ margin: auto;
     display: block;
 }
 
-.designer_mobile {
+.about_img_mobile {
     display: none;
 }
 
@@ -211,10 +263,12 @@ margin: auto;
 .drawing {
     width: 100%;
     height: 40%;
+    display: block;
 }
 
 .plant {
     width: 100%;
+    display: block;
 }
 
 .section_1 p {
@@ -229,6 +283,7 @@ margin-bottom: 20px;
 
 .body_positive {
     width: 100%;
+    display: block;
 }
 
 .values_title {
@@ -331,15 +386,15 @@ margin-bottom: 20px;
 }
 
 .voice_container {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 80px;
-
 }
 
 .voice_section_container {
-    width: 45%;
+    width: 50%;
 }
 
 .voice_section_container p {
@@ -356,6 +411,7 @@ width: 45%;
     width: 100%;
     height: 300px;
     object-fit: cover;
+    display: block;
 }
 
 .openpdf a {
@@ -368,6 +424,7 @@ width: 45%;
     text-align: center;
     position: absolute;
     margin-top: 40px;
+    display: block;
 }
 }
 

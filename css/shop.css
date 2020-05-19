@@ -196,7 +196,7 @@ body {
 }
 
 .product_pic_1:hover {
-    content: url(../resources/images/2.3.jpg);
+    content: url(../resources/images/proposition1.2.jpg);
 }
 
 .product_pic_2 {
@@ -205,7 +205,7 @@ body {
 }
 
 .product_pic_2:hover {
-    content: url(../resources/images/2.jpg);
+    content: url(../resources/images/proposition4.1.jpg);
 }
 
 .product_pic_3 {
