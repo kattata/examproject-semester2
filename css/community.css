@@ -279,13 +279,24 @@ margin: auto;
 }
 
 .article_container p {
-font: 16px "interstate";
-line-height: 1.5;
+  font: 16px "interstate";
+  line-height: 1.5;
 }
 
 .article_title {
-margin: 10px 0 10px 10px;
-font: 15px "lemonmilk";
+  margin: 10px 0 10px 13px;
+  font: 15px "lemonmilk";
+  position: relative;
+}
+
+.article_title::after {
+  content: "";
+  position: absolute;
+  height: 90%;
+  width: 5px;
+  background-color: #CDC9C8;
+  top: 2px;
+  left: -13px;
 }
 
 
@@ -417,7 +428,7 @@ height: auto;
   height: 450px;
   border-style: solid;
   border-width: thin;
-  border-color: black;
+  border-color: #CDC9C8;
   font-size: 15px;
   line-height: 1.5;
   padding: 10%;

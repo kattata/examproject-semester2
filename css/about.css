@@ -145,16 +145,17 @@ margin-bottom: 20px;
 .section-h2 {
   margin: 10px 0 10px 10px;
   font: 15px "lemonmilk";
+  position: relative;
 }
 
 .section-h2::before {
-  content: "";
-  height: 90%;
-  width: 5px;
-  background-color: #CDC9C8;
-  position: absolute;
-  left: -20px;
-  top: 0;
+    content: "";
+    position: absolute;
+    height: 90%;
+    width: 5px;
+    background-color: #CDC9C8;
+    top: 8px;
+    left: -13px;
 }
 
 
@@ -249,8 +250,8 @@ margin-bottom: 20px;
 
 .value {
     width: 30%;
-    height: 230px;
-    border: 1px solid #323439;
+    height: 250px;
+    border: 1px solid #CDC9C8;
     padding: 25px;
 }
 
