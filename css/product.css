@@ -2,6 +2,11 @@ p {
     line-height: 1.5;
 }
 
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
 main h2 {
     text-transform: uppercase;
     font-family: "lemonmilk";
@@ -18,7 +23,7 @@ main h4 {
 }
 
 .product-flex {
-    width: 60%;
+    width: 100%;
     margin: auto;
     display: flex;
 }
@@ -132,7 +137,7 @@ main h4 {
 /* UGC */
 
 .ugc {
-    width: 60%;
+    width: 100%;
     margin: 50px auto 0;
 }
 
@@ -197,7 +202,7 @@ main h4 {
 
 .suggestions {
     margin: 50px auto;
-    width: 60%;
+    width: 100%;
 }
 
 .suggestion-container {
