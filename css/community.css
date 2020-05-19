@@ -419,10 +419,11 @@ justify-content: space-between;
   font-size: 30px;
 }
 
-.Insta {
-  height: 190px;
-  width: 190px;
+.insta_feed {
+width: 45%;
 }
+
+
 
 .flex-container4 {
   width: 400px;

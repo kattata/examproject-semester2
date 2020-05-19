@@ -359,12 +359,13 @@ font-family: sans-serif;
 
 .logo_newsletter {
 margin-bottom: 20px;
+width: 15%;
     }
 
 #popup1 .popup h2{
 margin-top: 0;
 color: white;
-font: "lemonmilk";
+font: 25px "lemonmilk";
 line-height: 1.5;
 width: 70%;
 margin: auto;
