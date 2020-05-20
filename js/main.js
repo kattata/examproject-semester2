@@ -15,10 +15,12 @@ function openMenu() {
     const nav = document.querySelector("nav");
     const newsletter = document.querySelector(".newsletter-btn");
     const search = document.querySelector(".search-icon");
+    const searchSvg = document.querySelector(".search-svg");
+
     nav.classList.toggle("nav-mobile");
     nav.classList.toggle("nav");
     newsletter.classList.toggle("newsletter-btn-mobile");
-    // search.classList.toggle("se")
+    searchSvg.src = "../resources/icons/search-white.svg";
     search.classList.toggle("search-icon-mobile");
 }
 

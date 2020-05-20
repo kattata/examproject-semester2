@@ -212,9 +212,16 @@ grid-row: 4/8;
   flex: 2;
 }
 
-.newsletter_box p {
-  position: relative;
-  margin-bottom: 20px;
+.newsletter_box input {
+  background: none;
+  border: none;
+ border-bottom: 1px solid white;
+}
+
+.newsletter_box input::placeholder {
+  color: white;
+  text-align: center;
+  font-family: interstate, sans-serif;
 }
 
 .newsletter_box hr {
