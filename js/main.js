@@ -9,19 +9,26 @@ $('#open-close-toggle').on("click", function () {
 
 //Burger Menu
 
+
+const burgerBtn = document.querySelector("#burger-btn");
+const nav = document.querySelector("nav");
+const newsletter = document.querySelector(".newsletter-btn");
+const search = document.querySelector(".search-icon");
+const searchBlack = document.querySelector(".search-black");
+const searchWhite = document.querySelector(".search-white");
 const burger = document.querySelector(".burger");
 
+
 function openMenu() {
-    const nav = document.querySelector("nav");
-    const newsletter = document.querySelector(".newsletter-btn");
-    const search = document.querySelector(".search-icon");
-    const searchSvg = document.querySelector(".search-svg");
 
     nav.classList.toggle("nav-mobile");
     nav.classList.toggle("nav");
-    newsletter.classList.toggle("newsletter-btn-mobile");
-    searchSvg.src = "../resources/icons/search-white.svg";
-    search.classList.toggle("search-icon-mobile");
+    burger.classList.toggle("active-burger");
+    newsletter.classList.add("newsletter-btn-mobile");
+    searchBlack.classList.toggle("search-inactive");
+    searchWhite.classList.add("search-active");
+
+
 }
 
-burger.addEventListener('click', openMenu);
+burgerBtn.addEventListener('click', openMenu);
