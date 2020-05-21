@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: interstate sans-serif;
+    font-family: interstate, sans-serif;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -64,6 +64,7 @@ margin-bottom: 20px;
     line-height: 1.5;
     font-size: 15px;
     margin-bottom: 30px;
+
 }
 
 .paragraph_quality {
@@ -396,9 +397,9 @@ margin-bottom: 20px;
 }
 
 .voice_section_container p {
-font: 16px "interstate";
-line-height: 1.5;
-margin-bottom: 20px;
+    font: 16px "interstate";
+    line-height: 1.5;
+    margin-bottom: 20px;
     }
 
 .voiceimg_container {

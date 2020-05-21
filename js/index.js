@@ -17,7 +17,7 @@ $('.center').slick({
         {
             breakpoint: 768,
             settings: {
-                arrows: false,
+                arrows: true,
                 centerMode: false,
                 slidesToShow: 1
             }
@@ -25,7 +25,7 @@ $('.center').slick({
         {
             breakpoint: 480,
             settings: {
-                arrows: false,
+                arrows: true,
                 centerMode: false,
                 centerPadding: '0',
                 slidesToShow: 1
