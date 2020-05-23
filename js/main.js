@@ -27,8 +27,6 @@ function openMenu() {
     newsletter.classList.add("newsletter-btn-mobile");
     searchBlack.classList.toggle("search-inactive");
     searchWhite.classList.add("search-active");
-
-
 }
 
-burgerBtn.addEventListener('click', openMenu);
+burgerBtn.addEventListener('click', openMenu, {passive: true});

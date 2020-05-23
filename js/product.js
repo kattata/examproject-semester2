@@ -43,4 +43,4 @@ function changePicture(e) {
     }
 }
 
-smallPictures.forEach(pic => pic.addEventListener('click', changePicture));
+smallPictures.forEach(pic => pic.addEventListener('click', changePicture, {passive: true}));
