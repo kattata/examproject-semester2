@@ -11,16 +11,15 @@ let detailsHeight = details.offsetHeight;
 if (width >= 900) {
 
     const photos = document.querySelector(".product-photos");
-    const details = document.querySelector(".product-deatils");
     const logo = document.querySelector(".logo");
 
     const controller = new ScrollMagic.Controller();
 
 
     new ScrollMagic.Scene({
-        duration: detailsHeight - 600,
-        triggerElement: details,
-        triggerHook: 0,
+        duration: detailsHeight - 650,
+        triggerElement: photos,
+        triggerHook: 0.05,
 
     })
         .setPin(photos)
@@ -44,4 +43,4 @@ function changePicture(e) {
     }
 }
 
-smallPictures.forEach(pic => pic.addEventListener('click', changePicture, {passive: true}));
+smallPictures.forEach(pic => pic.addEventListener('click', changePicture, { passive: true }));

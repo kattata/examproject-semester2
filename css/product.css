@@ -26,17 +26,28 @@ main h4 {
     max-width: 900px;
     margin: auto;
     display: flex;
+    justify-content: flex-end;
 }
 
 /* PRODUCT PHOTOS */
 
+.trigger {
+    background-color: teal;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
 .product-photos {
-    width: 60%;
+    width: 520px;
     margin: 20px 30px 20px 0;
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: repeat(3, 28vh);
     grid-gap: 20px;
+    position: absolute;
 }
 
 .product-photos img {
