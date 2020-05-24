@@ -11,6 +11,7 @@ let detailsHeight = details.offsetHeight;
 if (width >= 900) {
 
     const photos = document.querySelector(".product-photos");
+    const details = document.querySelector(".product-deatils");
     const logo = document.querySelector(".logo");
 
     const controller = new ScrollMagic.Controller();
@@ -18,8 +19,8 @@ if (width >= 900) {
 
     new ScrollMagic.Scene({
         duration: detailsHeight - 600,
-        triggerElement: photos,
-        triggerHook: 0.05,
+        triggerElement: details,
+        triggerHook: 0,
 
     })
         .setPin(photos)
