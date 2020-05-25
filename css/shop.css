@@ -72,6 +72,7 @@ body {
     margin-left: 10px;
     margin-top: 8px;
     cursor: pointer;
+    height: 10px;
 }
 
 .hidden{
@@ -107,8 +108,20 @@ body {
 .collection_button {
   float: left;
 cursor: pointer;
-    border-bottom: 2px solid;
-    border-bottom-color: #CDC9C8;
+    /* border-bottom: 2px solid;
+    border-bottom-color: #CDC9C8; */
+    font-size: 16px;
+    position: relative;
+}
+
+.collection_button::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #CDC9C8;
+    bottom: -3px;
+    left: 0;
 }
 
 .slide_button {
@@ -241,6 +254,7 @@ body {
     margin-left: 10px;
     margin-top: 8px;
     cursor: pointer;
+    height: 10px;
 }
 
 .hidden{
@@ -283,8 +297,19 @@ body {
 .collection_button {
   float: left;
 cursor: pointer;
-    border-bottom: 2px solid;
-    border-bottom-color: #CDC9C8;
+    /* border-bottom: 2px solid;
+    border-bottom-color: #CDC9C8; */
+    position: relative;
+}
+
+.collection_button::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #CDC9C8;
+    bottom: -3px;
+    left: 0;
 }
 
 .slide_button {

@@ -17,7 +17,7 @@ if (width >= 900) {
 
 
     new ScrollMagic.Scene({
-        duration: detailsHeight - 650,
+        duration: detailsHeight - 700,
         triggerElement: photos,
         triggerHook: 0.05,
 
@@ -43,4 +43,4 @@ function changePicture(e) {
     }
 }
 
-smallPictures.forEach(pic => pic.addEventListener('click', changePicture, { passive: true }));
+smallPictures.forEach(pic => pic.addEventListener('click', changePicture));

@@ -530,10 +530,6 @@ hr {
     top: 20vh;
     left: 50%;
   }
-}
-
-
-@media (max-width: 768px) {
 
 .newsletter-btn {
 display: none;
