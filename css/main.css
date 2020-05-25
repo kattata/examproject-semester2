@@ -185,33 +185,33 @@ hr {
 /*NEWSLETTER */
 
 .overlay {
-position: fixed;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-background: rgba(0, 0, 0, 0.7);
-transition: opacity 500ms;
-visibility: hidden; opacity: 0;
-z-index: 9999;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden; opacity: 0;
+  z-index: 9999;
 }
 
 .overlay:target {
-visibility: visible;
-opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 #popup1 {
-font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 #popup1 .popup {
   margin: 0px auto;
-  padding: 50px 20px;
+  padding: 50px 20px 30px;
   background: #fff;
   border-radius: 0px;
   background-color: #323439;
-  height: 50%;
+  /* height: 50%; */
   width: 40%;
   position: relative;
   text-align: center;
@@ -227,18 +227,18 @@ font-family: sans-serif;
   }
 
 .logo_newsletter {
-margin-bottom: 20px;
-width: 15%;
+  margin-bottom: 20px;
+  width: 15%;
     }
 
 #popup1 .popup h2{
-margin-top: 0;
-color: white;
-font: 25px "lemonmilk";
-line-height: 1.5;
-width: 70%;
-margin: auto;
-margin-bottom: 30px;
+  margin-top: 0;
+  color: white;
+  font: 25px "lemonmilk";
+  line-height: 1.5;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 #popup1 .popup .close {
@@ -286,7 +286,7 @@ display: inline-block;
 .newsletter-btn::after {
  content: "";
  width: 100%;
- height: 1px;
+ height: 2px;
  position: absolute;
  bottom: 2px;
  left: 0;
@@ -317,11 +317,13 @@ input[type=submit]:hover {
 
 .subscribe {
 background-color: #323439;
+font-family: interstate, sans-serif;
 color: white;
 font-size: 15px;
 cursor: pointer;
 text-align: center;
 align-content: center;
+
 }
 
 /* FOOTER */
@@ -343,14 +345,14 @@ footer p {
 
 .logo-footer {
   height: 60px;
-display: block;
+  display: block;
 }
 
 .flex-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-    text-align: left;
+  text-align: left;
   padding: 30px;
   padding-top: 50px;
   width: 80%;
@@ -567,11 +569,11 @@ hr {
 
   #popup1 .popup {
     margin: 0px auto;
-    padding: 50px 20px;
+    padding: 50px 20px 30px;
     background: #fff;
     border-radius: 0px;
     background-color: #323439;
-    height: 50%;
+    /* height: 50%; */
     width: 80%;
     position: relative;
     text-align: center;
@@ -659,6 +661,8 @@ hr {
 
   .subscribe {
     background-color: #323439;
+    font-family: interstate, sans-serif;
+
     color: white;
     font-size: 15px;
     cursor: pointer;

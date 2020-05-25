@@ -36,7 +36,6 @@
 /* MAIN */
 
 main {
-  /* max-width: 1200px; */
   max-width: 900px;
   margin: auto;
 }
@@ -47,7 +46,7 @@ main p {
 
 main h2 {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 22px;
   margin: 20px 0;
   font-family: "lemonmilk";
   position: relative;
@@ -55,7 +54,7 @@ main h2 {
 
 .section-h2 {
 margin: 10px 0 10px 10px;
-  font: 15px "lemonmilk";
+  font: 18px "lemonmilk";
 }
 
 .section-h2::before {
@@ -126,7 +125,7 @@ section img {
 .go-shop::after {
   content: "";
   width: 100%;
-  height: 1px;
+  height: 2px;
   background-color: #CDC9C8;
   position: absolute;
   bottom: -3px;

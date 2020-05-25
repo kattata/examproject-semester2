@@ -7,7 +7,7 @@
 body {
   font-family: interstate, sans-serif;
   color: #323439;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .container {
@@ -18,7 +18,8 @@ body {
 
 .collection {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-size: 22px;
 }
 
 .products_container {
@@ -58,7 +59,7 @@ body {
 /* TOGGLE BUTTON */
 
 #headermenu {
-    padding:10px;
+    padding: 10px;
     width: 100%;
     margin-bottom: 80px;
     margin-top: -40px;
@@ -106,10 +107,8 @@ body {
 }
 
 .collection_button {
-  float: left;
-cursor: pointer;
-    /* border-bottom: 2px solid;
-    border-bottom-color: #CDC9C8; */
+    float: left;
+    cursor: pointer;
     font-size: 16px;
     position: relative;
 }
@@ -178,7 +177,9 @@ body {
 }
 
 .container {
-    width: 65%;
+    max-width: 1200px;
+    min-width: 1000px;
+    width: 60%;
     margin-top: 50px;
     margin-bottom: 100px;
 }
@@ -240,13 +241,13 @@ body {
 /* TOGGLE BUTTON */
 
 #headermenu {
-    padding:10px;
+    padding: 10px;
     width: 100%;
     margin-bottom: 80px;
     margin-top: -40px;
 }
 #toggle-section {
-    display:none;
+    display: none;
 }
 
 #arrow_img {
@@ -295,10 +296,8 @@ body {
     }
 
 .collection_button {
-  float: left;
-cursor: pointer;
-    /* border-bottom: 2px solid;
-    border-bottom-color: #CDC9C8; */
+    float: left;
+    cursor: pointer;
     position: relative;
 }
 

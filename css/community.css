@@ -22,7 +22,7 @@ main {
 }
 
 .community {
-    height: 400PX;
+    height: 400px;
     width:  100%;
     background-image: url(../resources/images/two_women_sitting_on_white_ben.png);
     position: relative;
@@ -69,14 +69,26 @@ main {
 }
 
 .headline {
-    font: 20px "lemonmilk";
-    margin-bottom: 30px;
+    font: 22px "lemonmilk";
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .article_title {
-    font: 17px "lemonmilk";
+    font: 18px "lemonmilk";
     margin-bottom: 0px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.article_title::after {
+  content: "";
+  position: absolute;
+  height: 90%;
+  width: 5px;
+  background-color: #CDC9C8;
+  top: 2px;
+  left: -13px;
 }
 
 
@@ -96,7 +108,7 @@ main {
 
 .continue-reading-btn {
     margin-top: 20px;
-    font-weight: 500;
+    font-weight: 600;
     position: relative;
     margin-bottom: 20px;
   }
@@ -113,7 +125,7 @@ main {
 
 .read-all-btn {
     margin-top: 10px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     position: relative;
     text-align: right;
@@ -236,9 +248,10 @@ body {
 }
 
 main {
-/* max-width: 1200px; */
-width: 60%;
-margin: auto;
+  max-width: 900px;
+  min-width: 800px;
+  width: 60%;
+  margin: auto;
     }
 
 .community {
@@ -284,8 +297,8 @@ margin: auto;
 }
 
 .headline {
-    font: 18px "lemonmilk";
-    margin-bottom: 30px;
+    font: 22px "lemonmilk";
+    margin-bottom: 20px;
     text-align: left;
 }
 
@@ -296,7 +309,7 @@ margin: auto;
 
 .article_title {
   margin: 10px 0 10px 13px;
-  font: 15px "lemonmilk";
+  font: 18px "lemonmilk";
   position: relative;
 }
 
@@ -311,11 +324,11 @@ margin: auto;
 }
 
 .article_img {
-    height: 250px;
+    height: 300px;
     width: 450px;
     object-fit: cover;
     object-position: top;
-    margin-right: 100px;
+    margin-right: 25px;
     display: block;
 }
 
@@ -325,7 +338,7 @@ margin: auto;
 
 .continue-reading-btn {
     margin-top: 20px;
-    font-weight: 500;
+    font-weight: 600;
     position: relative;
   }
 
@@ -335,13 +348,13 @@ margin: auto;
     height: 2px;
     position: absolute;
     background-color: #CDC9C8;
-    bottom: 0;
+    bottom: -2px;
     left: 0;
   }
 
 .read-all-btn {
     margin-top: 20px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     position: relative;
     text-align: right
@@ -350,11 +363,11 @@ margin: auto;
 .read-all-btn::after {
     content: "";
     justify-content: center;
-    width: 70px;
+    width: 60px;
     height: 2px;
     position: absolute;
     background-color: #CDC9C8;
-    bottom: 0;
+    bottom: -3px;
     right: 0;
   }
 
@@ -368,11 +381,11 @@ margin: auto;
 }
 
 .section-text {
-  width: 50%;
+  margin-left: 25px;
 }
 
 .paragraph {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
     margin-top: 17px;
 }
@@ -394,12 +407,15 @@ margin: auto;
   width: 100%;
 }
 
-.story {
-    width: 450px;
+.story1 {
+    margin-right: 25px;
+}
+.story2 {
+    margin-left: 25px;
 }
 
 .img2 {
-  width: 450px;
+  width: 100%;
   height: 250px;
   object-fit: cover;
   object-position: top;
