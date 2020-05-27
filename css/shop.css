@@ -68,12 +68,12 @@ body {
     display:none;
 }
 
-#arrow_img {
+.arrow_img {
     border: 0;
     margin-left: 10px;
     margin-top: 8px;
     cursor: pointer;
-    height: 10px;
+    height: 8px;
 }
 
 .hidden{
@@ -106,14 +106,14 @@ body {
     display: none;
 }
 
-.collection_button {
+#collection_button {
     float: left;
     cursor: pointer;
     font-size: 16px;
     position: relative;
 }
 
-.collection_button::after {
+#collection_button::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -250,7 +250,7 @@ body {
     display: none;
 }
 
-#arrow_img {
+.arrow_img {
     border: 0;
     margin-left: 10px;
     margin-top: 8px;
@@ -295,15 +295,16 @@ body {
     display: block;
     }
 
-.collection_button {
+#collection_button {
     float: left;
     cursor: pointer;
     position: relative;
     font-weight: 500;
     font-size: 16px;
+
 }
 
-.collection_button::after {
+#collection_button::after {
     content: "";
     position: absolute;
     width: 100%;
