@@ -82,7 +82,7 @@ margin-bottom: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
-    font: 20px "lemonmilk"
+    font: 20px "lemonmilk";
 }
 
 .values_container {
@@ -104,7 +104,8 @@ margin-bottom: 20px;
 }
 
 .value_name {
-    font: 17px "lemonmilk";
+    font: 17px interstate;
+    font-weight: 600;
 }
 
 .value_text {
@@ -121,29 +122,30 @@ margin-bottom: 20px;
 }
 
 .section_3 p {
-font: 16px "interstate";
-line-height: 1.5;
-margin-bottom: 20px;
+    font: 16px "interstate";
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 .learn-btn {
     margin-top: 20px;
     font-weight: 500;
     position: relative;
+    font-family: interstate;
   }
 
 .learn-btn::after {
     content: "";
-    width: 85px;
+    width: 82px;
     height: 2px;
     position: absolute;
     background-color: #CDC9C8;
-    bottom: 0;
+    bottom: -2px;
     left: 0;
   }
 
 .section-h2 {
-  margin: 10px 0 10px 10px;
+  margin: 15px;
   font: 18px "lemonmilk";
   position: relative;
 }
@@ -171,9 +173,9 @@ margin-bottom: 20px;
     width: 90%;
     margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-between;
-    margin-bottom: 50px;
+
 }
 
 .voice_section_container {
@@ -181,18 +183,30 @@ margin-bottom: 20px;
 }
 
 .voice_section_container p {
-font: 16px "interstate";
-line-height: 1.5;
-margin-bottom: 20px;
+    font: 16px "interstate";
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 .voiceimg_container {
-width: 100%;
+    width: 100%;
 }
 
 .openpdf a {
-    display: none;
+    color: white;
+    font: 15px "interstate";
+    font-weight: 500;
+    background-color: #323439;
+    padding: 15px;
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    margin-top: 10px;
+    display: block;
 }
+
+
+
 
 .about_img_mobile {
     width: 100%;
@@ -200,13 +214,17 @@ width: 100%;
     margin: auto;
     object-fit: cover;
     object-position: top;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-top: 40px;
     display: block;
 }
 
 .voice_img {
     display: none;
+}
+
+.voice_img_mobile {
+    margin-top: 90px;
 }
 
 .body_positive {
@@ -220,12 +238,13 @@ width: 100%;
 
 
 
+
 @media (min-width: 990px) {
 
 main {
-/* max-width: 1200px; */
-width: 60%;
-margin: auto;
+
+    width: 60%;
+    margin: auto;
 }
 
 .section_1 {
@@ -240,15 +259,19 @@ margin: auto;
 }
 
 .left_1 {
-    width: 45%;
+    width: 46%;
 }
 
 .right_1 {
-    width: 45%;
+    width: 46%;
 }
+
+
 
 .designer_site {
     width: 100%;
+    height: 400px;
+    object-fit: cover;
     display: block;
 }
 
@@ -260,21 +283,30 @@ margin: auto;
     margin-top: 20px;
 }
 
+.our-idea {
+    margin-top: 50px;
+}
+
 .drawing {
     width: 100%;
-    height: 40%;
+    height: 520px;
+    object-fit: cover;
     display: block;
+    margin-top: 50px;
 }
 
 .plant {
     width: 100%;
+    height: 400px;
+    object-fit: cover;
     display: block;
+    margin-top: -80px;
 }
 
 .section_1 p {
-font: 16px "interstate";
-line-height: 1.5;
-margin-bottom: 20px;
+    font: 16px "interstate";
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 .paragraph_quality {
@@ -283,7 +315,10 @@ margin-bottom: 20px;
 
 .body_positive {
     width: 100%;
+    object-fit: cover;
+    height: 400px;
     display: block;
+    margin-top: 50px;
 }
 
 .values_title {
@@ -294,7 +329,7 @@ margin-bottom: 20px;
 
 .values_container {
     margin-top: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -330,13 +365,13 @@ margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .section_3 p {
-font: 16px "interstate";
-line-height: 1.5;
-margin-bottom: 20px;
+    font: 16px "interstate";
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 .learn-btn {
@@ -347,11 +382,11 @@ margin-bottom: 20px;
 
 .learn-btn::after {
     content: "";
-    width: 85px;
+    width: 82px;
     height: 2px;
     position: absolute;
     background-color: #CDC9C8;
-    bottom: 0;
+    bottom: -2px;
     left: 0;
   }
 
@@ -360,9 +395,14 @@ margin-bottom: 20px;
     font: 18px "lemonmilk";
 }
 
+.stronger {
+    margin-top: 60px;
+}
+
 .stronger_together_pic_site {
     width: 100%;
     display: block;
+    margin-top: 50px;
 }
 
 .stronger_together_pic_mobile {
@@ -370,7 +410,7 @@ margin-bottom: 20px;
 }
 
 .title_and_text_equality {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .some {
@@ -390,26 +430,26 @@ margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .voice_section_container {
-    width: 50%;
+    width: 46%;
 }
 
 .voice_section_container p {
     font: 16px "interstate";
     line-height: 1.5;
     margin-bottom: 20px;
-    }
+}
 
 .voiceimg_container {
-width: 45%;
-    }
+    width: 46%;
+}
 
 .voice_img {
     width: 100%;
-    height: 300px;
+    height: 350px;
     object-fit: cover;
     display: block;
 }
@@ -423,7 +463,7 @@ width: 45%;
     width: 15%;
     text-align: center;
     position: absolute;
-    margin-top: 40px;
+    margin-top: 10px;
     display: block;
 }
 }

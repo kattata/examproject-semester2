@@ -13,8 +13,6 @@ const nav = document.querySelector("nav");
 const burger = document.querySelector(".burger");
 const newsletter = document.querySelector(".newsletter-btn");
 const search = document.querySelector(".search-icon");
-const searchImg = document.querySelector(".search");
-
 
 function openMenu() {
 

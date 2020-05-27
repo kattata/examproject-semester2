@@ -101,6 +101,7 @@ main h4 {
 
 .sizeguide {
     position: relative;
+    font-weight: 500;
 }
 
 .sizeguide::after {
@@ -137,7 +138,7 @@ main h4 {
 }
 
 .add-btn {
-    background-color: #CDC9C8;
+    background-color: #323439;
     height: 100%;
     width: 82%;
     font-size: 16px;
@@ -152,7 +153,7 @@ main h4 {
 }
 
 .fav-btn {
-    background-color: #CDC9C8;
+    background-color: #323439;
     height: 100%;
     width: 14%;
 }
@@ -261,37 +262,38 @@ main {
     width: 90vw;
     margin: auto;
 }
-    .product-flex {
-        flex-direction: column;
-        width: 100%;
-        margin: auto;
-    }
 
-    .product-photos {
-        width: 100%;
-        margin: 20px auto;
-        grid-template-rows: repeat(3, 18vh);
-        grid-gap: 10px;
-        position: static;
-    }
+.product-flex {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
 
-    .product-details {
-        width: 100%;
-        margin: auto;
-    }
+.product-photos {
+    width: 100%;
+    margin: 20px auto;
+    grid-template-rows: repeat(3, 18vh);
+    grid-gap: 10px;
+    position: static;
+}
 
-    .collection-name {
-        margin-top: 30px;
-    }
+.product-details {
+    width: 100%;
+    margin: auto;
+}
 
-    .price-and-size {
-        margin-top: 40px;
-    }
+.collection-name {
+    margin-top: 30px;
+}
 
-    .suggestion img {
-        width: 100%;
-        max-width: 200px;
-        height: 50vh;
-        object-fit: cover;
-    }
+.price-and-size {
+    margin-top: 40px;
+}
+
+.suggestion img {
+    width: 100%;
+    max-width: 200px;
+    height: 50vh;
+    object-fit: cover;
+}
 }

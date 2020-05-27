@@ -255,7 +255,7 @@ body {
     margin-left: 10px;
     margin-top: 8px;
     cursor: pointer;
-    height: 10px;
+    height: 8px;
 }
 
 .hidden{
@@ -299,6 +299,8 @@ body {
     float: left;
     cursor: pointer;
     position: relative;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .collection_button::after {
