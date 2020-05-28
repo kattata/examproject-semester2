@@ -388,6 +388,11 @@ main {
     background-color: #CDC9C8;
     bottom: -2px;
     left: 0;
+    transition: background-color .3s ease;
+  }
+
+  .learn-btn:hover::after {
+      background-color: #323439 ;
   }
 
 .section-h2 {
@@ -460,11 +465,16 @@ main {
     font-weight: 500;
     background-color: #323439;
     padding: 15px;
-    width: 15%;
+    width: 20%;
     text-align: center;
     position: absolute;
     margin-top: 10px;
     display: block;
+    transition: background-color .3s ease;
+}
+
+.openpdf a:hover {
+    background-color: #CDC9C8;
 }
 }
 

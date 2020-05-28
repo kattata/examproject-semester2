@@ -348,6 +348,11 @@ section .continue-reading-btn::after {
     background-color: #CDC9C8;
     bottom: -2px;
     left: 0;
+    transition: background-color 0.3s ease;
+  }
+
+section .continue-reading-btn:hover::after {
+    background-color: #323439;
   }
 
 section .read-all-btn {
@@ -367,6 +372,11 @@ section .read-all-btn::after {
     background-color: #CDC9C8;
     bottom: -2px;
     right: 0;
+    transition: background-color 0.3s ease;
+  }
+
+  section .read-all-btn:hover::after {
+    background-color: #323439;
   }
 
 /* NEW ARTICLES */
@@ -473,5 +483,6 @@ height: auto;
   width: 20px;
   margin-right: 4px;
 }
+
 }
 

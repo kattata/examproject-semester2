@@ -107,6 +107,11 @@ section img {
   background-color: #CDC9C8;
   bottom: 0;
   left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.learn-btn:hover::after {
+  background-color: #323439;
 }
 
 
@@ -134,6 +139,11 @@ section img {
   position: absolute;
   bottom: -3px;
   left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.go-shop:hover::after {
+  background-color: #323439;
 }
 
 .center {
@@ -191,9 +201,7 @@ grid-row: 4/8;
   height: 200px;
   margin-top: 50px;
   color: white;
-
-
-  }
+}
 
   .newsletter {
   width: 60%;
@@ -201,18 +209,17 @@ grid-row: 4/8;
   display: flex;
   justify-content: space-between;
   padding-top: 70px;
-  }
+}
 
 .tiny_paragraph {
   max-width: 400px;
   margin: auto;
   font-size: 18px;
   font-family: "lemonmilk";
-  }
+}
 
 .newsletter_box {
   text-align: center;
-  /* align-self: flex-end; */
   flex: 2;
 }
 
@@ -238,6 +245,12 @@ grid-row: 4/8;
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
+    transition: opacity .3s ease;
+    cursor: pointer;
+}
+
+.newsletter_box button:hover {
+  opacity: 0.8;
 }
 
 .newsletter_box img {
@@ -326,9 +339,20 @@ grid-row: 3/4;
 
 @media (max-width: 768px) {
 
+.hero img {
+  height: 50vh;
+}
+
 .hero h1 {
   width: 90%;
-  font-size: 60px;
+  font-size: 40px;
+  top: 70%;
+  }
+
+.hero h2 {
+  font-size: 16px;
+  width: 370px;
+  top: 90%;
 }
 
 main {

@@ -31,15 +31,6 @@ main h4 {
 
 /* PRODUCT PHOTOS */
 
-.trigger {
-    background-color: teal;
-    width: 100px;
-    height: 1px;
-    position: absolute;
-    top: 50px;
-    left: 0;
-}
-
 .product-photos {
     width: 520px;
     margin: 20px 30px 20px 0;
@@ -64,6 +55,11 @@ main h4 {
 .product-img-small {
     cursor: pointer;
 }
+
+.product-img-small:hover {
+    opacity: 0.8;
+}
+
 /* PRODUCT DETAILS */
 
 .product-details {
@@ -102,6 +98,7 @@ main h4 {
 .sizeguide {
     position: relative;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .sizeguide::after {
@@ -112,6 +109,11 @@ main h4 {
     position: absolute;
     bottom: -3px;
     left: 0;
+    transition: background-color .3s ease;
+}
+
+.sizeguide:hover::after {
+    background-color: #323439;
 }
 
 .size-and-amount {
@@ -145,6 +147,12 @@ main h4 {
     font-family: interstate, sans-serif;
     font-weight: 500;
     color: white;
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #CDC9C8;
 }
 
 .fav-icon {
@@ -156,6 +164,12 @@ main h4 {
     background-color: #323439;
     height: 100%;
     width: 14%;
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+
+.fav-btn:hover {
+    background-color: #CDC9C8;
 }
 
 .product-details span {
@@ -248,6 +262,15 @@ main h4 {
 
 .suggestion img {
     width: 300px;
+    cursor: pointer;
+}
+
+.img1:hover {
+    content: url(../resources/images/proposition1.2.jpg);
+}
+
+.img2:hover {
+    content: url(../resources/images/proposition4.2.jpg);
 }
 
 .name-and-price {
@@ -272,7 +295,7 @@ main {
 .product-photos {
     width: 100%;
     margin: 20px auto;
-    grid-template-rows: repeat(3, 18vh);
+    grid-template-rows: repeat(3, 24vh);
     grid-gap: 10px;
     position: static;
 }
