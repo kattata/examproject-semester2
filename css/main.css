@@ -178,7 +178,10 @@ hr {
 .payment-methods img {
   height: 40px;
   width: auto;
- display: block;
+  margin: auto;
+ display: flex;
+ justify-content: center;
+ 
 }
 
 
@@ -387,6 +390,14 @@ hr {
   height: 35px;
   width: 35px;
   margin: 20px 10px;
+}
+
+
+.payment-methods img {
+  height: 40px;
+  width: auto;
+ display: block;
+ margin: 0;
 }
 }
 
