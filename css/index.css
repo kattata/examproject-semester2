@@ -33,6 +33,10 @@
   transform: translateY(-80%);
 }
 
+.sets {
+  font-weight: 500;
+}
+
 /* MAIN */
 
 main {

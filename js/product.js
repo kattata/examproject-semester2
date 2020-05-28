@@ -5,19 +5,20 @@
 
 let width = window.outerWidth;
 let details = document.querySelector(".product-details");
-let detailsHeight = details.offsetHeight;
+let detailsHeight = details.scrollHeight;
 
 
 if (width >= 900) {
 
     const photos = document.querySelector(".product-photos");
+    let photosHeight = photos.scrollHeight;
     const logo = document.querySelector(".logo");
 
     const controller = new ScrollMagic.Controller();
 
 
     new ScrollMagic.Scene({
-        duration: detailsHeight - 700,
+        duration: detailsHeight - photosHeight,
         triggerElement: photos,
         triggerHook: 0.05,
 
